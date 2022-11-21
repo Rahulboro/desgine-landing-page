@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    background-image: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    background-position:  right bottom;
+    height: 100vh;
+}
+
+
+.main-div {
+    max-width: 77rem;
+    margin: 0 auto;
+}
+
+/* this is the navbar section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 16vh;
+    align-items: center;
+}
+nav img {
+    width: 115px;
+}
+.nav-items {
+    display: flex;
+    gap: 30px;
+    color: #303b9d;
+}
+nav .signin-btn {
+    border: none;
+    background: linear-gradient(to right, #8e55ea, #d26fb4);
+    padding: 7px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fffdfd;
+    border-radius: 46px;
+
+}
+
+/* this is the hero section */
+
+.hero-section {
+    display: flex;
+}
+.hero-section .left-section {
+    max-width: 400px;
+    margin-top: 100px;
+}
+.hero-section h1 {
+    color: #30387a;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.hero-section h4 {
+    color: #878282;
+    font-weight: normal;
+    max-width: 300px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.hero-section .learn-more-btn {
+    border: none;
+    background: linear-gradient(to right, #8e63d3, #e974c6);
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #d7d3d3;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.hero-section .imgs-div {
+    position: relative;
+}
+.hero-section .imgs-div img:nth-child(3) {
+    width: 650px;
+    position: absolute;
+    top: -20px;
+    left: 220px;
+}
+
+.hero-section .imgs-div img:nth-child(1) {
+    position: absolute;
+    top: 400px;
+    left: 220px;
+    width: 80px;
+}
+
+.hero-section .imgs-div img:nth-child(2) {
+    position: absolute;
+    top: 400px;
+    left: 270px;
+    width: 15px;
+}
+
+
+
+
